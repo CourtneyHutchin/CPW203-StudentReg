@@ -1,0 +1,11 @@
+{
+    "files": [
+        "ts/main.ts"
+    ],
+    "compilerOptions": {
+        "removeComments": true,
+        "outDir": "js",
+        "target": "es5",
+        "watch": true
+    }
+}
