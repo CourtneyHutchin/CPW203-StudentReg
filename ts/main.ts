@@ -46,6 +46,21 @@ function processForm() {
     clearForm();
 }
 
+/**
+ * Clears all the inputs in the form
+ */
+function clearForm() {
+    let regForm = <HTMLFormElement>document.getElementById("reg-form");
+    regForm.reset();
+
+    // let allTextBoxes = document.querySelectorAll("input[type=text]");
+
+    // for (let i = 0; i < allTextBoxes.length; i++) {
+    //     let currBox = <HTMLInputElement>allTextBoxes[i];
+    //     currBox.value = "";
+    // }
+}
+
 function displayStudent(s: Student): void {
     let newItem = document.createElement("li");
     newItem.innerText = s.firstName + " " + s.lastName;

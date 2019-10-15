@@ -18,6 +18,10 @@ function processForm() {
     displayStudent(nextStu);
     clearForm();
 }
+function clearForm() {
+    var regForm = document.getElementById("reg-form");
+    regForm.reset();
+}
 function displayStudent(s) {
     var newItem = document.createElement("li");
     newItem.innerText = s.firstName + " " + s.lastName;
