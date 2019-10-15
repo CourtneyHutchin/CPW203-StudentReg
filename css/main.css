@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    background-color: rgb(218, 182, 196);
+    color: white;
+    border-radius: 50px;
+    padding: .5em;
+    margin-top: .2em;
+}
+
+form > span {
+    color: red;
+}
+
+body {
+    text-align: center;
+}
