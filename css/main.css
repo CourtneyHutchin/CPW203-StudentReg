@@ -1,3 +1,8 @@
+body {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 h1 {
     text-align: center;
     background-color: rgb(218, 182, 196);
@@ -9,8 +14,4 @@ h1 {
 
 form > span {
     color: red;
-}
-
-body {
-    text-align: center;
 }
